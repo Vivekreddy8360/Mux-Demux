@@ -52,16 +52,51 @@ Y0=s1′s0′I <br>
 
 
 ## Program:
-
-
+~~~
+Developed by :M vivek reddy
+Reg no :212221240030
+~~~
+## Multiplexer
+```
+module mul(I0,I1,I2,I3,S0,S1,Y);
+input I0,I1,I2,I3,S0,S1;
+output Y;
+wire P,Q,R,S,S0c,S1c;
+not(S0c,S0);
+nor(S1c,S1);
+and (P,S0c,S1c,I0);
+and(Q,S0c,S1,I1);
+and(R,S0,S1c,I2);
+and(S,S0,S1,I3);
+or(Y,P,Q,R,S);
+endmodule
+```
 ## RTL Schematic:
-
-
-
+![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/01d170e6-d8f5-40ba-8d98-701296bed124)
+## Timing Diagram:
+![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/29727dd7-3e25-4db0-be59-5cc71950464b)
+![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/fd23c1b2-94b8-4d46-8cdc-95eb18a7e012)
+![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/a1344c1d-c7a2-470a-ab92-9ad05911fdcf)
+![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/043eca47-89f2-4045-bcad-29cfb8541432)
+## Demultiplexer
+```
+module demul(Y0,Y1,Y2,Y3,S0,S1,I);
+input I,S0,S1;
+output Y0,Y1,Y2,Y3;
+wire S0c,S1c;
+not(S0c,S0);
+nor(S1c,S1);
+and (Y0,I,S0c,S1c);
+and(Y1,I,S0c,S1);
+and(Y2,I,S0,S1c);
+and(Y3,I,S0,S1);
+endmodule
+```
+## RTL Schematic:
+![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/ea06e384-46b4-4a4a-9913-177235436ad6)
 
 ## Timing Diagram:
-
-
+![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/8c4f66e2-f130-4316-927b-17ea2be8b6a8)
 
 ## Result:
 Thus the multiplexer and demultiplexer circuits are designed and implemented and the truth tables are verified.
