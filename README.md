@@ -74,10 +74,8 @@ endmodule
 ## RTL Schematic:
 ![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/01d170e6-d8f5-40ba-8d98-701296bed124)
 ## Timing Diagram:
-![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/29727dd7-3e25-4db0-be59-5cc71950464b)
-![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/fd23c1b2-94b8-4d46-8cdc-95eb18a7e012)
-![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/a1344c1d-c7a2-470a-ab92-9ad05911fdcf)
-![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/043eca47-89f2-4045-bcad-29cfb8541432)
+![mux](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/4353f135-9fcc-4237-b4cd-da98061b44d3)
+
 ## Demultiplexer
 ```
 module demul(Y0,Y1,Y2,Y3,S0,S1,I);
@@ -96,8 +94,7 @@ endmodule
 ![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/ea06e384-46b4-4a4a-9913-177235436ad6)
 
 ## Timing Diagram:
-![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/8c4f66e2-f130-4316-927b-17ea2be8b6a8)
-
+![Uploading demux.png…]()
 ## Result:
 Thus the multiplexer and demultiplexer circuits are designed and implemented and the truth tables are verified.
 
