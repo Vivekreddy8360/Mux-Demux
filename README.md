@@ -93,8 +93,7 @@ endmodule
 ## RTL Schematic:
 ![image](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/ea06e384-46b4-4a4a-9913-177235436ad6)
 ## Timing Diagram:
-![Uploading demux.png…]()
-
+![demux](https://github.com/Vivekreddy8360/Mux-Demux/assets/94525701/6183f621-91ec-460b-b033-2939ef69f818)
 ## Result:
 Thus the multiplexer and demultiplexer circuits are designed and implemented and the truth tables are verified.
 
